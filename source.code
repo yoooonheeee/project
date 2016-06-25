@@ -8,7 +8,7 @@
 
 
 
-void Read_Data_Files(void);//ÆÄ¶ó¹ÌÅÍ µ¥ÀÌÅÍ ÇüÀ¸·Î ¹Ù²ã¾ß ÇÒµí
+void Read_Data_Files(void);//íŒŒë¼ë¯¸í„° ë°ì´í„° í˜•ìœ¼ë¡œ ë°”ê¿”ì•¼ í• ë“¯
 void Display_Statistics(void);
 void Top_5_Most_Tweeted_Words(void);
 void Top_5_Most_Tweeted_Users(void);
@@ -45,7 +45,7 @@ void Top_5_Most_Tweeted_Users(void)
 }
 void Find_Users(void)
 {
-	printf("4. Find users who tweeted a word (e.g., ¡¯¿¬¼¼´ë¡¯)\n");
+	printf("4. Find users who tweeted a word (e.g., â€™ì—°ì„¸ëŒ€â€™)\n");
 	return;
 }
 void Find_All_Friends(void)
@@ -90,7 +90,7 @@ int menu(void)
 	printf("1. display statistics\n");
 	printf("2. Top 5 most tweeted words\n");
 	printf("3. Top 5 most tweeted users\n");
-	printf("4. Find users who tweeted a word (e.g., ¡¯¿¬¼¼´ë¡¯)\n");
+	printf("4. Find users who tweeted a word (e.g., â€™ì—°ì„¸ëŒ€â€™)\n");
 	printf("5. Find all people who are friends of the above users\n");
 	printf("6. Delete all mentions of a word\n");
 	printf("7. Delete all users who mentioned a word\n");
